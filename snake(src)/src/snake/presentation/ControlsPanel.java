@@ -39,12 +39,14 @@ public class ControlsPanel extends JPanel
 		f.setHgap(10);
 		this.setLayout(f);
 		this.setBorder(new BevelBorder(1));
-		
-		startButton.setPreferredSize(new Dimension(85, 40));
+	System.out.println("Soy un ejemplo de salida por pantalla ejemplar");	
+	System.out.println("Que peasso modificacion estoy haciendo...")
+	startButton.setPreferredSize(new Dimension(85, 40));
 		startButton.setText("START");
 		startButton.addActionListener(new ActionListener(){
 			@Override
 			public void actionPerformed(ActionEvent e) {
+
 				if(panel.isTitle())
 				{
 					panel.setTitle(false);
